@@ -12,7 +12,7 @@ title                    : "Sofiane Mazières"
 title_separator          : "-"
 name                     : &name "Sofiane Mazières"
 description              : &description "Sofiane Mazières's personal webpage"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://s0fian3m.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "S0fian3M/S0fian3M.github.io"
 
@@ -290,7 +290,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
