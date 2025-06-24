@@ -8,7 +8,7 @@ redirect_from:
   - /projects.html
 ---
 
-## Some projects I'm proud of
+## Some other projects I'm proud of
 
 ### <a href="https://the-french-connections.github.io/" target="_blank">The French Connections</a>
 
