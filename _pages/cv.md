@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* February - August 2024: R&D Artificial Intelligence for Cybersecurity Intern
+* February - August 2023: R&D Artificial Intelligence for Cybersecurity Intern
   * Daspren, start-up located at INRIA Rennes
   * Duties includes: Research and development of artificial intelligence (both machine and deep learning) for cybersecurity, using Rust and Python. Achieved state-of-the-art results in file-fragment classification using transformers.
 
