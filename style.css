@@ -1,0 +1,9 @@
+body { max-width: 57em }
+@media print { 
+  body { max-width: unset }
+  html { 
+    font-size: 11pt;
+    background-color: '#f9f9f9';
+  }
+}
+
