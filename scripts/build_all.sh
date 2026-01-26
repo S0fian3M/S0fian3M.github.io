@@ -3,7 +3,7 @@
 # I added this script as I'm starting from scratch
 
 #./scripts/fix_modification_time.sh
-./scripts/update_indexes.sh
+./scripts/update_subfolder_indexes.sh
 ./scripts/list.sh > md/sitemap.md
 
 for mdfile in ./md/*.md; do
