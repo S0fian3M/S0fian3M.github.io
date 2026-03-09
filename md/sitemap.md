@@ -5,6 +5,7 @@
 - [phd-subject](/phd-subject/)
 - [projects](/projects/)
 - [purposes](/purposes/)
+- [seqami](/seqami/)
 - [talks](/talks/)
   - [2025-06-25-Sunbelt2025](/talks/2025-06-25-Sunbelt2025/)
   - [2025-06-28-Sunbelt2025](/talks/2025-06-28-Sunbelt2025/)

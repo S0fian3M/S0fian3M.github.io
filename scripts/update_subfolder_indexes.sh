@@ -9,7 +9,9 @@ for dir in md/*/; do
       dirname=$(basename "$dir")
       echo "Updating: $index_file"
       title=$(grep -m 1 '^#' "$index_file")
-      new_content="$title"
+      new_content="$title
+
+"
       
       # Add list of other files in the directory
       for file in "$dir"*.md; do
