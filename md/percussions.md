@@ -5,4 +5,4 @@ One of my core hobbies is to play (contemporary classical) music, especially per
 * Vibraphone: Hard-boiled Capitalism (Ben Wahlund, 2008) ; Links & Links n°5 (Stuart Smith, 1974) ; Open End (Benjamin Hackbarth, 2007)
 * Timpani: Planet Damnation (John Psathas, 2012)
 * Snare drum: Asventuras (Alexej Gerassimez, 2011) ; Meditation n°1 & n°2 (Casey Cangelosi, 2011, 2017) ; Kerberos (Sydney Hodkinson, 1990)
-* Other: Time & Money, mvt. 1 (Pierre Jodlowski, 2006) ; Side by Side (Michio Kitazume) ; Rebonds B (Iannis Xenakis, 1987-89)
+* Other: Time & Money, mvt. 1 (Pierre Jodlowski, 2006) ; Side by Side (Michio Kitazume, 1993) ; Rebonds B (Iannis Xenakis, 1987-89)
