@@ -16,6 +16,9 @@ done
 for dir in md/*/; do
   if [ -d "$dir" ]; then
     dirname=$(basename "$dir")
+    if [[ $dirname == "temp" ]]; then
+      continue
+    fi
     echo "- [$dirname](/$dirname/)"
     
     # List files within subdirectory

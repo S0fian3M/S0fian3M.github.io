@@ -9,3 +9,5 @@ That's why:
 - I write everything here in markdown
 - no Javascript or additional features to maintain
 - no 'fancy' design
+
+I use white RGBA(249, 249, 249, 1) as background for this website because white 255 is a bit unpleasant (too bright) to me. White 249 is the default value used by MuseScore in their design.
