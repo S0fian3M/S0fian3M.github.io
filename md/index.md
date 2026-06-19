@@ -9,4 +9,6 @@ Lost? Use the [sitemap](/sitemap/) at the bottom to find all the content, or sel
 
 Check out what's my [PhD subject](/phd-subject/) or take a look at my [cv](/cv/).
 
-*The code of this website is available on my [GitHub repository](https://github.com/S0fian3M/S0fian3M.github.io).*
+*The code of this website is available on my [GitHub repository](https://github.com/S0fian3M/S0fian3M.github.io).* 
+
+*[LinkedIn](https://www.linkedin.com/in/sofiane-mazi%C3%A8res-96134a178/) · [Orcid](https://orcid.org/0009-0002-2856-3019)

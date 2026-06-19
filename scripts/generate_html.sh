@@ -15,7 +15,16 @@ file=$(basename $1)
 file=${file%\.md}
 
 parent=$(dirname $1)
-parentHref="../"
+depth=$(echo "$parent" | tr -cd '/' | wc -c)
+base_depth=1
+extra_depth=$((depth - base_depth))
+parentHref=""
+
+for i in $(seq 1 $extra_depth); do
+  parentHref="${parentHref}../"
+done
+
+[ -z "$parentHref" ] && parentHref="./"
 
 echo "file:        " $file
 echo "parent:      " $parent

@@ -1,51 +1,43 @@
 #!/bin/sh
 # Update index.md files in subfolders with lists of other files (in the same subfolder)
 
-for dir in md/*/; do
-  if [ -d "$dir" ]; then
-    index_file="${dir}index.md"
-    
-    if [ -f "$index_file" ]; then
-      dirname=$(basename "$dir")
-      echo "Updating: $index_file"
-      title=$(grep -m 1 '^#' "$index_file")
-      new_content="$title
+find md -mindepth 1 -type d | while read dir; do
+  index_file="${dir}/index.md"
+  [ -f "$index_file" ] || continue
 
+  dirname=$(basename "$dir")
+  [[ $dirname == "temp" ]] && continue
+
+  # Build URL path relative to site root
+  urlpath="/${dir#md/}/"
+
+  echo "Updating: $index_file"
+  title=$(grep -m 1 '^#' "$index_file")
+  new_content="$title
 "
-      
-      # Add list of other files in the directory
-      for file in "$dir"*.md; do
-        if [ -f "$file" ]; then
-          filename=$(basename "$file" .md)
-          if [ "$filename" != "index" ]; then
-            # Try to find the title (as markdown #) in the content
-            file_title=$(grep -m 1 '^# ' "$file" | sed 's/^# //')
-            
-            # If still no title, use filename
-            if [ -z "$file_title" ]; then
-              file_title="$filename"
-            fi
-            
-            # Try to extract date
-            file_date=$(grep -m 1 '^date:' "$file" | sed 's/^date: *//')
-            if [ -z "$file_date" ]; then
-              file_date=$(grep -m 1 '^\*\*Date:\*\*' "$file" | sed 's/^\*\*Date:\*\* *//')
-            fi
-            
-            # Build the list item
-            if [ -n "$file_date" ]; then
-              new_content="${new_content}- [$file_title](/$dirname/$filename/) ($file_date)
-"
-            else
-              new_content="${new_content}- [$file_title](/$dirname/$filename/)
-"
-            fi
-          fi
-        fi
-      done
-      
-      echo "$new_content" > "$index_file"
-      echo "  Updated with file list"
+
+  for file in "$dir"/*.md; do
+    [ -f "$file" ] || continue
+    filename=$(basename "$file" .md)
+    [ "$filename" = "index" ] && continue
+
+    file_title=$(grep -m 1 '^# ' "$file" | sed 's/^# //')
+    [ -z "$file_title" ] && file_title="$filename"
+
+    file_date=$(grep -m 1 '^date:' "$file" | sed 's/^date: *//')
+    if [ -z "$file_date" ]; then
+      file_date=$(grep -m 1 '^\*\*Date:\*\*' "$file" | sed 's/^\*\*Date:\*\* *//')
     fi
-  fi
+
+    if [ -n "$file_date" ]; then
+      new_content="${new_content}- [$file_title](${urlpath}${filename}/) ($file_date)
+"
+    else
+      new_content="${new_content}- [$file_title](${urlpath}${filename}/)
+"
+    fi
+  done
+
+  echo "$new_content" > "$index_file"
+  echo "  Updated with file list"
 done

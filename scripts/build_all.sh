@@ -14,10 +14,8 @@ for mdfile in ./md/*.md; do
   fi
 done
 
-for mdfile in ./md/**/*.md; do
-  if [ -f "$mdfile" ]; then
-    echo "Processing: $mdfile"
-    ./scripts/generate_html.sh "$mdfile"
-    echo "---"
-  fi
+find ./md -mindepth 2 -name "*.md" | while read mdfile; do
+  echo "Processing: $mdfile"
+  ./scripts/generate_html.sh "$mdfile"
+  echo "---"
 done
