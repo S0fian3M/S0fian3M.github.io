@@ -1,4 +1,4 @@
-### Environmental sociology and sociology of pro-environmental behaviours: challenges, actors and dynamics
+### Environmental sociology and sociology of pro-environmental behaviours: challenges, actors, mechanisms and dynamics
 **Date:** 2026-02-11
 **Type:** Doctoral class
 **University:** Sorbonne University

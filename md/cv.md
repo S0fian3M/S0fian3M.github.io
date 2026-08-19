@@ -25,15 +25,15 @@
 
 ## Publications
 
-  See [publications](/publications/)
+  See [publications](/phd/publications/)
   
 ## Talks
 
-  See [talks](/talks/)
+  See [talks](/phd/talks/)
   
 ## Teaching
 
-  See [teaching](/teaching/)
+  See [teaching](/phd/teaching/)
 
 ## Responsabilities
 
@@ -41,4 +41,4 @@
 
 ## Hobbies
 
-I play [percussions](/percussions/).
+I play [percussions](/music/percussions/) and speak several [languages](/languages/).

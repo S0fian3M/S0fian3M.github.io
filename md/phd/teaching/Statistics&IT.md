@@ -1,5 +1,5 @@
-**Class name:** Statistics and IT for sociology
-**Date:** Starting September 2024
+### Statistics and IT for sociology
+**Date:** Starting September 2024 (still ongoing)
 **Type:** Undergraduate (1st year)
 **University:** Sorbonne University 
 **Location:** Paris, France

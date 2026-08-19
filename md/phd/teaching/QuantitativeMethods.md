@@ -1,5 +1,5 @@
-**Class name:** Quantitative methods
-**Date:** Starting September 2024
+### Quantitative methods
+**Date:** Starting September 2024 (still ongoing)
 **Type:** Undergraduate (2nd year)
 **University:** Sorbonne University 
 **Location:** Paris, France

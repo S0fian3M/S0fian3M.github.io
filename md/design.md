@@ -11,3 +11,5 @@ That's why:
 - no 'fancy' design
 
 I use white RGBA(249, 249, 249, 1) as background for this website because white 255 is a bit unpleasant (too bright) to me. White 249 is the default value used by MuseScore in their design.
+
+In case you were wondering, I know how to code and design a proper website, using Angular, React, or in pure HTML/CSS.

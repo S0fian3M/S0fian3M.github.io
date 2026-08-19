@@ -2,6 +2,26 @@
 
 # Note: Pay attention to markdown nested folders
 
+# get link label for a given md file
+# file name, except for publications and teaching
+get_label() {
+  local file="$1"
+  local filename="$2"
+  local dirpath="$3"
+
+  if [[ "$dirpath" == "md/phd/publications" ]] || [[ "$dirpath" == "md/phd/teaching" ]]; then
+    local heading
+    heading=$(grep -m1 '^### ' "$file" | sed 's/^### *//')
+    if [ -n "$heading" ]; then
+      echo "$heading"
+    else
+      echo "$filename"
+    fi
+  else
+    echo "$filename"
+  fi
+}
+
 # List files in md/ root (excluding special files)
 for file in md/*.md; do
   [ -f "$file" ] || continue
@@ -22,7 +42,8 @@ find md -mindepth 1 -maxdepth 1 -type d | sort | while read dir; do
     [ -f "$file" ] || continue
     filename=$(basename "$file" .md)
     [[ $filename == "index" ]] && continue
-    echo "  - [$filename](/$dirname/$filename/)"
+    label=$(get_label "$file" "$filename" "$dir")
+    echo "  - [$label](/$dirname/$filename/)"
   done
 
   # Nested subdirectories
@@ -38,7 +59,8 @@ find md -mindepth 1 -maxdepth 1 -type d | sort | while read dir; do
       [ -f "$file" ] || continue
       filename=$(basename "$file" .md)
       [[ $filename == "index" ]] && continue
-      echo "${indent}  - [$filename](${urlpath}${filename}/)"
+      label=$(get_label "$file" "$filename" "$subdir")
+      echo "${indent}  - [$label](${urlpath}${filename}/)"
     done
   done
 done
