@@ -24,7 +24,7 @@ This classification includes many different types of medias (in green): books, m
 It has to be noted that being in this classification doesn't mean I liked it, but I can strongly recommend Battle Royale (both the book and the movie), Alice in Borderland (the manga, but also the Netflix adaptation up to season 2), Punishment Park and The Genius (south korean TV show). Finally, no classification is perfect. In the end, it is just another way of putting things in boxes in order to better understand the world, so do not expect 100% accuracy with this classification.
 
 <figure>
-  <img src="../files/figures/death-games-genre.svg" alt="This figure shows a classification of the death games genre inside the survival genre. The death games genre is defined as having a main scenario that consists in a deadly competition or contest between several individuals.
+  <img src="/files/figures/death-games-genre.svg" alt="This figure shows a classification of the death games genre inside the survival genre. The death games genre is defined as having a main scenario that consists in a deadly competition or contest between several individuals.
 This competition has rules, including winning and loosing conditions. The death game genre, include notably the knock-out game genre, that can be splitted between death mini-games genre (such as Alice in Borderland or Kaiji) and the Battle Royale genre (including Battle Royale, Hunger Games, Circle...).">
   <figcaption>Death games genre classification</figcaption>
 </figure>

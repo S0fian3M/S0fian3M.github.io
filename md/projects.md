@@ -6,4 +6,4 @@
 
 ### Master's thesis
 
-You can find my Master's thesis (in french), here: <a href="../files/MAZIERES_Sofiane_Mémoire_RESSP_M2.pdf" target="_blank">« Study of the determinants of conformation during the Covid-19 pandemic in France. Analysis using agent-based models. »</a>
+You can find my Master's thesis (in french), here: <a href="/files/MAZIERES_Sofiane_Mémoire_RESSP_M2.pdf" target="_blank">« Study of the determinants of conformation during the Covid-19 pandemic in France. Analysis using agent-based models. »</a>

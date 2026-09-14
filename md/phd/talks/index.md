@@ -7,4 +7,5 @@
 - [2026-02-11-JournéeDoctorale](/phd/talks/2026-02-11-JournéeDoctorale/) (2026-02-11)
 - [2026-06-19-ICES](/phd/talks/2026-06-19-ICES/) (2026-06-19)
 - [2026-07-10-MeSSH](/phd/talks/2026-07-10-MeSSH/) (2026-07-10)
+- [2026-08-28-ACES](/phd/talks/2026-08-28-ACES/) (2026-08-28)
 
